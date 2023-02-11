@@ -1,14 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title {
+    background-color: #f6d365;
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.whole-title {
+    padding-bottom: 30px;
+}
+
+.game-container {
+    display: flex;
+    align-items: center;
+    flex-flow: column nowrap;
+}
+
+.stats {
+    padding: 55px 35px;
+    display: flex;
+    flex-flow: column wrap;
+    border: 3px solid #fda085;
+    line-height: 1.5;
+    text-align: center;
+}
+
 .grid {
     width: 606px;
     height: 606px;
     display: flex;
     flex-wrap: wrap;
+    padding: 75px 25px;
 }
 
 .square {
     height: 200px;
     width: 200px;
     border: #000000 solid 1px;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
 }
 
 .mole {
